@@ -1,0 +1,12 @@
+[package]
+name = "g"
+version = "0.1.0"
+authors = ["jkarn"]
+build = "build.rs"
+
+[dependencies]
+
+gbalib = { path = "gbalib", version = "*" }
+gbaimg = { path = "gbaimg", version = "*" }
+[lib]
+crate-type = ["staticlib"]
